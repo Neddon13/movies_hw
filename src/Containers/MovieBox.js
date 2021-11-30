@@ -35,9 +35,8 @@ const MovieBox = () => {
         <div className="movies">
         <h1>Upcoming Film Releases for UK</h1>
         <MovieList movies={movies} />
+        <a href='https://www.imdb.com/calendar/?region=gb' className='more-button'>View more upcoming releases</a>
         </div>
-
-   
-    )};
+     )};
 
 export default MovieBox;
