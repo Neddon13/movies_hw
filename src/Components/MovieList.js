@@ -3,10 +3,15 @@ import Movie from "./Movie";
 const MovieList = ({movies}) => {
 
     const movieNodes = movies.map(movie => {
-        return <Movie key={movie.id} name={movie.name}>{movie.url}</Movie> 
+        return <Movie name={movie.name} url={movie.url}/>
     })
 
-    return <>{movieNodes}</>
-};
+    return (
+    <> 
+        <ul className="movie-list">
+        {movieNodes}
+        </ul>
+    </>
+    )};
 
 export default MovieList;

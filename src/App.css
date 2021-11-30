@@ -1,0 +1,15 @@
+ul {
+    display: flex;
+    flex-direction: column;
+    border: 20px;
+    
+}
+
+.movies {
+    border: 7px solid gray;
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
